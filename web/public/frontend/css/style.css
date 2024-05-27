@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.bg-purple{
+    background-color: #313897;
+}
+
+.jumbotron{
+
+    border-radius: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+}
+
+.home .jumbotron{
+    height: 100vh;
+    background-color: #fefefe;
+}
+
+.title-text{
+    font-weight: 700;
+    font-size: 40px;
+    color: #565dc7;
+}
+.title-text-2{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.carousel-inner img{
+    height: 50vh;
+    width: 100%;
+    padding: 10px;
+    background-color: #565dc7;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.carousel-inner img:hover{
+    transform: scale(1.1);
+}
+
+.sr-only{
+    background-color: #313897;
+}
+
+.carousel-indicators li{
+    background-color: #565dc7;
+}
+.carousel-indicators .active{
+    background-color: #565dc7;
+}
+
+.about .jumbotron{
+    height: 50vh;
+    background-color: #fefefe;
+}
+
+.about .card{
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    background-color: #565dc7;
+    border: none;
+    color: #fefefe;
+}
+
+.about .card:hover{
+    transform: scale(1.1);
+}
+
+.table{
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+thead{
+    background-color: #565dc7;
+    border-radius: 10px;
+    color: #fefefe;
+}
+
+.berita .jumbotron{
+    height: 100vh;
+    background-color: #cdcff5;
+}
+
+.berita .card img{
+    height: 200px;
+}
+
+.berita .card-text{
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+.berita .card{
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+.berita .card:hover{
+    transform: scale(1.1);
+}
+
+.contact .jumbotron{
+    background-color: #fefefe;
+    height: 80vh;
+}
+
+.contact img{
+    width: 400px;
+}
+.form-control{
+    background-color: #dddddd;
+}
+
+.footer .jumbotron{
+    height: 50vh;
+    background-color: #565dc7;
+}
+
+.footer{
+    color: #fefefe;
+}
+
+.footer h3{
+    color: #fefefe;
+    font-weight: 700;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.copy{
+    height: 50px;
+    line-height: 50px;
+    color: #fefefe;
+    background-color: #313897;
+}
+
+.login .jumbotron{
+    height: 100vh;
+    background-color: #313897;
+
+}
+
+.login .log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login form{
+    width: 50%;
+    border-radius: 20px;
+    padding: 50px;
+    height: 50vh;
+    background-color: #565dc7;
+}
+
+.content .col-sm-2{
+    height: 100vh;
+    background-color: #313897;
+}
+
+.content .card{
+    border: none;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.list-group{
+    background-color: transparent;
+}
+
+.list-group a{
+    color: #fefefe;
+    text-decoration: none;
+}
+
+.list-group-item{
+    background-color: #313897;
+}
+
+.list-group-item:hover{
+    background-color: #565dc7;
+}
+
+@media screen and (max-width:768px) {
+    .home .jumbotron{
+        height: auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .home .jumbotron .row{
+        display: flex;
+        justify-content:center;
+        flex-direction: column-reverse;
+    }
+
+    .home .text{
+        margin-top: 20px;
+    }
+
+    .about .jumbotron{
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 100px;
+    }
+
+    .berita .jumbotron{
+        height: auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .berita .card:hover{
+        transform: none;
+    }
+
+    .contact .jumbotron{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        height: auto;
+    }
+
+    .contact img{
+        display: none;
+    }
+
+    .footer .jumbotron{
+        height: auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
